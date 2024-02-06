@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* border: solid black; */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100vh;
+    border: solid black;
+}
+
+.main{
+    display: flex;
+    width: 70%;
+    height: 100vh;
+    border: solid red;
+}
