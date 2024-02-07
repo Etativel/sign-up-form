@@ -3,7 +3,7 @@
     margin: 0px;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    /* border: solid black; */
+    /* border: solid white; */
 }
 
 body {
@@ -71,7 +71,7 @@ body {
     margin-bottom: 80px;
 }
 
-.form-container{
+/* .form-containers{
     background-color: rgb(6, 6, 6);
     box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
     display: flex;
@@ -79,7 +79,7 @@ body {
     gap: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-}
+} */
 
 label {
     padding-bottom: 12px;
@@ -97,7 +97,7 @@ label {
 
 input{
     background-color: rgb(2, 2, 2);
-    border: 1px solid rgb(164, 146, 146);
+    border: 1.7px solid rgb(164, 146, 146);
     border-radius: 3px;
     padding: 6px;
     color: aliceblue;
@@ -105,10 +105,8 @@ input{
 
 input:focus{
     outline: none;
-    border: 2px solid rgb(255, 139, 139);
-
+    border: 1.7px solid rgb(177,33,109);
     background-color: rgb(2, 2, 2);
-    border: 1px solid rgb(164, 146, 146);
     border-radius: 3px;
     padding: 6px;
     color: aliceblue;
@@ -153,4 +151,159 @@ button:hover {
     background-color: rgb(177,33,109);
     border: solid rgb(177,33,109);
     color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 830px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50vh;
+        background-image: url(sidebar_bg_2.jpg);
+        background-size: cover;
+    
+    }
+    
+    .sidebar-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        height: 55vh;
+        justify-content: center;
+    
+    }
+    
+    .side-title {
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        padding: 32px;
+        text-align: center;
+    
+    }
+    
+    .sidebar-footer {
+        display: flex;
+        flex-direction: column;
+        height: 66vh;
+        align-items: center;
+        justify-content: flex-end;
+        color: white;
+        font-size: 16px;
+        padding-bottom: 8px;
+    }
+    
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,255);
+        color: white;
+        /* padding: 64px;  */
+    }
+    
+    
+    .form{
+        background-color: rgb(6, 6, 6);
+        box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+        display: flex;
+        flex-direction  : column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    
+    .input {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8rem;
+        width: 100%;
+        opacity: 70%;
+        padding-top: 12px;
+    
+    }
+    
+    input{
+        background-color: rgb(2, 2, 2);
+        border: 1.7px solid rgb(164, 146, 146);
+        border-radius: 3px;
+        padding: 6px;
+        color: aliceblue;
+    }
+    
+    input:focus{
+        outline: none;
+        border: 1.7px solid rgb(177,33,109);
+        background-color: rgb(2, 2, 2);
+        border-radius: 3px;
+        padding: 6px;
+        color: aliceblue;
+        
+    }
+    
+    .pass-unmatch {
+        color: rgb(255, 84, 84);
+        font-weight: 700;
+        opacity: 100%;
+        padding-top: 6px;
+        padding-left: 3px;
+    }
+    
+    .form{
+        display: flex;
+        /* flex-flow: row wrap; */
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* padding-top: 20px; */
+        /* padding-bottom: 20px; */
+    }
+    
+    .button {
+        padding-top: 64px;
+    }
+    
+    button {
+        border-radius: 6px;
+        padding: 12px;
+        padding-right: 24px;
+        padding-left: 24px;
+        text-align: center;
+        background-color: rgba(0,0,0,255);
+        border: solid rgb(177,33,109);
+        font-size: large;
+        font-weight: 800;
+        color: rgb(177,33,109);
+        /* border: 0px; */
+    }
+    
+    button:hover {
+        background-color: rgb(177,33,109);
+        border: solid rgb(177,33,109);
+        color: black;
+    }
 }
