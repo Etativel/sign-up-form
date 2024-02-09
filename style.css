@@ -48,6 +48,8 @@ body {
     display: flex;
     flex-direction: column;
     height: 66vh;
+    /* height: 660vh; */
+    align-items: center;
     align-items: center;
     justify-content: flex-end;
     color: white;
